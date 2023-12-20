@@ -91,12 +91,19 @@ footer{
     gap: 1rem;
 }
 
+footer ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
 @media(min-width:1024px){
     footer{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 1rem;
+        gap: 2rem;
     }
 }
 
