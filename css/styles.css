@@ -18,13 +18,8 @@ ul{
 
 /*---HEADER---*/
 
-
-.container{
-    width: 100vw;
-}
-
 header{
-    background-image: linear-gradient(to left,crimson,yellow);
+    background-image: linear-gradient(to bottom,crimson,yellow);
     color: crimson;
     padding: 1rem;
     display: flex;
@@ -34,12 +29,16 @@ header{
 }
 
 
-header nav ul{
+header nav ul {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    color: crimson;
 }
 
+a{
+    color: crimson;
+}
 
 @media(min-width:1024px){
     header{
@@ -56,7 +55,7 @@ header nav ul{
     background-image: url(../img-cami/foto7-camila.jpg);
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -128,6 +127,21 @@ header nav ul{
 
 
 /*---FOOTER---*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.cont-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+}
 
 @media(min-width:1024px){
     .cont-nav{
