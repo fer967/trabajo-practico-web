@@ -22,36 +22,48 @@
             </ul>
         </nav>
     </header>
-    <hr>
 
     <main>
-        <h3>Contactame</h3>
-        <section>
-            <form action="">
-                <div>
-                    <label for="nombre-usuario">Ingrese nombre y apellido</label>
-                    <input type="text" id="nombre-usuario">
-                </div>    
-                
-                <div>
-                    <label for="numero-telefono">Ingrese su numero telefonico</label>
-                    <input type="text" id="numero-telefono">
-                </div>
+        <section class="contenedor-contacto">
+            <div class="info-contacto">
+                <h2>Camila Acebedo</h2>
+                <p>Pianista Corista Profesora <br>
+                    Tel: 351-(15)6820598 <br>
+                    Email: camiacebedo94@gmail.com
+                </p>
+                <img src="../img-cami/foto2-camila.jpg" alt="">
+            </div>
 
-                <div>
-                    <label for="email-usuario">Ingrese su email</label>
-                    <input type="text" id="email-usuario">
-                </div>
+            <div class="formulario">
+                <form action="">
+                    <div class="wrapper-input">
+                        <label for="nombre-usuario">Ingrese nombre y apellido</label>
+                        <input type="text" id="nombre-usuario">
+                    </div>    
+                    
+                    <div class="wrapper-input">
+                        <label for="numero-telefono">Ingrese su numero telefonico</label>
+                        <input type="text" id="numero-telefono">
+                    </div>
+                    
+                    <div class="wrapper-input">
+                        <label for="email-usuario">Ingrese su correo electronico</label>
+                        <input type="text" id="email-usuario">
+                    </div>
+                    
+                    <div class="wrapper-text-area">
+                        <label for="texto-usuario">Ingrese su comentario</label>
+                        <textarea  id="texto-usuario" cols="30" rows="10"></textarea>
+                    </div>
 
-                <div>
-                    <label for="texto-usuario">Ingrese su comentario</label>
-                    <textarea name="" id="texto-usuario" cols="30" rows="10"></textarea>
-                    <input type="submit" value="enviar consulta">
-                </div>
-            </form>
+                    <div class="wrapper-botones">
+                        <input type="submit" value="Enviar" class="btn">
+                        <input type="reset" value="Limpiar" class="btn">
+                    </div>
+                    
+                </form>
+            </div>
         </section>
-        <hr>
-
     </main>
 
     <footer>
