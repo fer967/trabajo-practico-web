@@ -21,6 +21,10 @@ img{
     border-radius: 20px;
 }
 
+video{
+    border-radius: 10px;
+}
+
 /*---HEADER---*/
 
 header{
@@ -111,7 +115,13 @@ a{
     padding: 0.4rem;
 }
 
-
+.cont-videos{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.4rem;
+}
 
 /* GALERIA */
 .contenedor{
