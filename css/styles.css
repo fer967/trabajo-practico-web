@@ -22,12 +22,14 @@ img{
 }
 
 video{
+    max-width: 100%;
     border-radius: 10px;
 }
 
 /*---HEADER---*/
 
 header{
+    width: 100vw;
     background-image: linear-gradient(to bottom,crimson,yellow);
     color: crimson;
     padding: 1rem;
@@ -71,8 +73,7 @@ a{
 }
 
 .portada-index span{
-    font-size: 2
-    rem;
+    font-size: 1.5rem;
 }
 
 .wrapper-texto-portada{
@@ -91,11 +92,11 @@ a{
     .portada-index{
         display: flex;
         flex-direction: column;
-        min-height: 90vh;
         align-items: start;
         justify-content: center;
     }
 }
+
 
 /*---BIOGRAFIA---*/
 .cont-caja{
