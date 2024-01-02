@@ -34,8 +34,9 @@ header{
     color: crimson;
     padding: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     gap: 1rem;
 }
 
@@ -63,13 +64,19 @@ a{
 /*---PORTADA---*/
 
 .portada-index{
-    background-image: url(../img-cami/foto7-camila.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 90vh;
+    background-image: linear-gradient(to bottom,rgba(220, 20, 60, 0.913),rgba(255, 255, 0, 0.807));
     display: flex;
-    justify-content: start;
-    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.items-portada{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
 }
 
 .portada-index span{
