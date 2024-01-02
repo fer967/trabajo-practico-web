@@ -79,6 +79,14 @@ a{
     font-size: 1.2rem;
 }
 
+@media(min-width:768px){
+    main div ul{
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+}
+
 .portada-index span{
     font-size: 1.5rem;
 }
