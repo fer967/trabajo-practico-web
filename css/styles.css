@@ -26,10 +26,6 @@ video{
     border-radius: 10px;
 }
 
-.cont-body{
-    width: 100vw;
-    height: 100vh;
-}
 
 /*---HEADER---*/
 
@@ -45,16 +41,34 @@ header{
     gap: 1rem;
 }
 
-
 header nav ul {
     display: flex;
     gap: 1rem;
     justify-content: center;
     color: crimson;
+    font-size: 1.2rem;
 }
 
 a{
     color: crimson;
+}
+
+@media(min-width:768px){
+    header{
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width:768px){
+    header nav ul{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:1024px){
+    header nav ul{
+        font-size: 1.8rem;
+    }
 }
 
 @media(min-width:1024px){
@@ -63,13 +77,14 @@ a{
         flex-direction: row;
         justify-content: space-around;
         padding: 1rem;
+        font-size: 2rem;
     }
 }
 
 /*---PORTADA---*/
 
 .portada-index{
-    min-height: 80%;
+    height: 80vh;
     background-image: linear-gradient(to bottom,rgba(220, 20, 60, 0.913),rgba(255, 255, 0, 0.807));
     display: flex;
     flex-direction: column;
