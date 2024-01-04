@@ -84,7 +84,7 @@ a{
 /*---PORTADA---*/
 
 .portada-index{
-    height: 80vh;
+    height: 60vh;
     background-image: linear-gradient(to bottom,rgba(220, 20, 60, 0.913),rgba(255, 255, 0, 0.807));
     display: flex;
     flex-direction: column;
@@ -105,6 +105,7 @@ a{
         display: flex;
         flex-direction: row;
         gap: 5rem;
+        font-size: 2rem;
     }
 }
 
@@ -120,10 +121,17 @@ a{
     gap: 1rem;
 }
 .wrapper-texto-portada h1{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: white;
     padding: 1.5rem;
 }
+
+@media(min-width:768px){
+    .wrapper-texto-portada h1{
+        font-size: 3rem;
+    }
+}
+
 @media(min-width:1024px){
     .portada-index{
         display: flex;
@@ -139,6 +147,26 @@ a{
     width: 100vw;
     padding: 1rem;
     background-image: linear-gradient(to bottom,rgba(220, 20, 60, 0.398),yellow);
+}
+
+.parrafo{
+    font-size: 1.3rem;
+}
+
+.item-biografia{
+    font-size: 1.5rem;
+}
+
+@media(min-width:768px){
+    .parrafo{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:768px){
+    .item-biografia{
+        font-size: 1.7rem;
+    }
 }
 
 /*---ACTIVIDADES---*/
@@ -232,6 +260,19 @@ a{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+@media(min-width:768px){
+    .formulario{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:768px){
+    .info-contacto{
+        font-size: 1.5rem
+        ;
+    }
 }
 
 @media(min-width:1024px){
