@@ -166,7 +166,15 @@ header{
 .cont-caja{
     width: 100vw;
     padding: 1rem;
-    background-image: linear-gradient(to bottom,rgba(220, 20, 60, 0.398),yellow);
+    background-image: linear-gradient(to bottom,crimson,yellow);
+}
+
+@media(min-width:1024px){
+    .cont-caja{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 1.5rem;
+    }
 }
 
 .parrafo{
