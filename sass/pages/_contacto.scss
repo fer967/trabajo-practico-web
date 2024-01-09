@@ -1,0 +1,64 @@
+.contenedor-contacto{
+    width: 100vw;
+    background-image: $color-fondo;
+}
+
+.info-contacto{
+    @include flex-col-center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+} 
+
+.formulario{
+    @include flex-col-center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+@media(min-width:768px){
+    .formulario{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:768px){
+    .info-contacto{
+        font-size: 1.5rem
+        ;
+    }
+}
+
+@media(min-width:1024px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.btn{
+    background-color: blue;
+    color: $color-blanco;
+    padding: 0.4rem 0.4rem;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: $color-blanco;
+    color: blue;
+    border: solid $color-negro 1px;
+}
+
+.wrapper-input,.wrapper-text-area{
+    @include flex-col-center;
+}
+
+.wrapper-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}

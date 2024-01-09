@@ -1,0 +1,39 @@
+$color-negro:black;
+$color-blanco:white;
+$color-fondo:linear-gradient(to bottom,crimson,yellow);
+$fuente-cinzel:'cinzel decorative',serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+video{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+h1{
+    text-shadow: 3px 3px 5px $color-blanco;
+    font-family: $fuente-cinzel;
+}
+
+@mixin flex-col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
