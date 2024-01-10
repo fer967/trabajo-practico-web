@@ -1,5 +1,3 @@
-
-
 .portada-index{
     @include flex-col-center;
     width: 100%;
@@ -20,19 +18,13 @@
 
 .portada-texto{
     @include flex-col-center;
-    text-align:start;
+    text-align: start;
     gap: 1rem;
-}
-
-@media(min-width:768px){
-    .portada-texto h1{
-        font-size: 3rem;
-    }
 }
 
 .portada-texto h1{
     font-size: 2rem;
-    color: $color-blanco;
+    color: $color-primario;
     padding: 2rem;
 }
 
@@ -50,7 +42,7 @@
 
 .portada-item{
     font-size: 1.3rem;
-    color: $color-blanco;
+    color: $color-primario;
     padding: 2rem;
 }
 

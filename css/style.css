@@ -36,7 +36,7 @@ header {
   color: white;
   font-size: 1.5rem;
 }
-@media (mim-width: 768px) {
+@media (min-width: 768px) {
   .navbar-brand {
     font-size: 2rem;
   }
@@ -107,11 +107,6 @@ header {
   gap: 1rem;
 }
 
-@media (min-width: 768px) {
-  .portada-texto h1 {
-    font-size: 3rem;
-  }
-}
 .portada-texto h1 {
   font-size: 2rem;
   color: white;
@@ -242,7 +237,7 @@ header {
   }
 }
 .contenedor-contacto {
-  width: 100vw;
+  width: 100%;
   background-image: linear-gradient(to bottom, crimson, yellow);
 }
 
@@ -278,15 +273,14 @@ header {
   .formulario {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 }
 .btn {
   background-color: blue;
   color: white;
   padding: 0.4rem 0.4rem;
-  border-radius: 10px;
 }
 
 .btn:hover {
@@ -320,7 +314,7 @@ footer {
 }
 
 .footer-nav {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;

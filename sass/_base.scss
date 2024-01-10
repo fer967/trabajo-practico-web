@@ -1,5 +1,5 @@
-$color-negro:black;
-$color-blanco:white;
+$color-primario:white;
+$color-secundario:black;
 $color-fondo:linear-gradient(to bottom,crimson,yellow);
 $fuente-cinzel:'cinzel decorative',serif;
 
@@ -28,7 +28,7 @@ video{
 }
 
 h1{
-    text-shadow: 3px 3px 5px $color-blanco;
+    text-shadow: 3px 3px 5px $color-primario;
     font-family: $fuente-cinzel;
 }
 
@@ -36,4 +36,10 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@mixin iconos{
+    padding: 0.3rem;
+    border-radius: 20px;
+    width: 25px;
 }

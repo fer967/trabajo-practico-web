@@ -1,5 +1,6 @@
+
 .contenedor-contacto{
-    width: 100vw;
+    width: 100%;
     background-image: $color-fondo;
 }
 
@@ -8,7 +9,7 @@
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-} 
+}
 
 .formulario{
     @include flex-col-center;
@@ -25,31 +26,27 @@
 
 @media(min-width:768px){
     .info-contacto{
-        font-size: 1.5rem
-        ;
+        font-size: 1.5rem;
     }
 }
 
 @media(min-width:1024px){
     .formulario{
-        display: flex;
-        flex-direction: column;
+        @include flex-col-center;
         justify-content: center;
-        align-items: center;
     }
 }
 
 .btn{
     background-color: blue;
-    color: $color-blanco;
+    color: $color-primario;
     padding: 0.4rem 0.4rem;
-    border-radius: 10px;
 }
 
 .btn:hover{
-    background-color: $color-blanco;
+    background-color: $color-primario;
     color: blue;
-    border: solid $color-negro 1px;
+    border: solid $color-secundario 1px;
 }
 
 .wrapper-input,.wrapper-text-area{
