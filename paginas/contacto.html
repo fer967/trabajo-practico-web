@@ -15,9 +15,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./contacto.html">Contacto</a>
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -26,11 +26,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./actividades.html">Actividades</a>
-                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./galeria.html">Galeria</a>
@@ -38,12 +40,18 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./biografia.html">Biografia</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown link
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <main>
         <section class="contenedor-contacto">
             <div class="info-contacto">
@@ -55,29 +63,29 @@
                 <img src="../img-cami/foto2-camila.jpg" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" alt="foto banda tributo Gorillaz">
             </div>
-            
+
             <div class="formulario">
                 <form action="">
                     <div class="wrapper-input">
                         <label for="nombre-usuario">Ingrese nombre y apellido</label>
                         <input type="text" id="nombre-usuario">
                     </div>
-                    
+
                     <div class="wrapper-input">
                         <label for="numero-telefono">Ingrese su numero telefonico</label>
                         <input type="text" id="numero-telefono">
                     </div>
-                    
+
                     <div class="wrapper-input">
                         <label for="email-usuario">Ingrese su correo electronico</label>
                         <input type="text" id="email-usuario">
                     </div>
-                    
+
                     <div class="wrapper-text-area">
                         <label for="texto-usuario">Ingrese su comentario</label>
                         <textarea id="texto-usuario" cols="30" rows="10"></textarea>
                     </div>
-                    
+
                     <div class="wrapper-botones">
                         <input type="submit" value="Enviar" class="btn">
                         <input type="reset" value="Limpiar" class="btn">
@@ -86,7 +94,7 @@
             </div>
         </section>
     </main>
-    
+
     <footer>
         <h3 class="footer-titulo">seguime en</h3>
         <nav class="footer-nav">
@@ -107,7 +115,7 @@
             </div>
         </nav>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
@@ -117,4 +125,5 @@
     </script>
 
 </body>
+
 </html>
