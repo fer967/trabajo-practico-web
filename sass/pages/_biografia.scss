@@ -1,15 +1,32 @@
+.titulo-biografia{
+    @include titulo-pagina;
+}
+
 .cont-caja{
     width: 100%;
     padding: 1rem;
     background-image: $color-fondo;
+    @include flex-col-1rem;
 }
 
 @media(min-width:1024px){
     .cont-caja{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+        @include grid-2col;
         padding: 1.5rem;
     }
+}
+
+.cont-1{
+    @include flex-col-1rem;
+}
+
+.cont-2{
+    @include flex-col-1rem;
+}
+
+.caja{
+    border: solid 2px green;
+    padding: 1rem;
 }
 
 .parrafo{

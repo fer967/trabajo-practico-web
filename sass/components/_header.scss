@@ -27,8 +27,7 @@ header{
 }
 
 .container-fluid{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     padding: 2rem;
 }
 

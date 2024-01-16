@@ -41,21 +41,21 @@
     background-color: blue;
     color: $color-primario;
     padding: 0.4rem 0.4rem;
-}
 
-.btn:hover{
-    background-color: $color-primario;
+    &:hover{
+        background-color: $color-primario;
     color: blue;
     border: solid $color-secundario 1px;
+    }
 }
+
 
 .wrapper-input,.wrapper-text-area{
     @include flex-col-center;
 }
 
 .wrapper-botones{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: center;
     gap: 1rem;
 }
