@@ -121,7 +121,7 @@ header {
 
 .portada-item {
   font-size: 1.3rem;
-  color: white;
+  color: black;
   padding: 2rem;
   font-family: "cinzel decorative", serif;
 }
@@ -252,16 +252,19 @@ header {
 
 .item-actividades {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .item-actividades {
     font-size: 1.4rem;
+    text-align: center;
   }
 }
 @media (min-width: 1024px) {
   .item-actividades {
     font-size: 1.6rem;
+    text-align: center;
   }
 }
 .titulo-galeria {
@@ -272,11 +275,8 @@ header {
   font-family: "cinzel decorative", serif;
 }
 
-.contenedor {
-  width: 100%;
-}
-
 .cont-galeria {
+  width: 100%;
   background-image: linear-gradient(to bottom, crimson, yellow);
   padding: 1rem;
   display: flex;
@@ -286,7 +286,7 @@ header {
 
 .cont-galeria img {
   width: 100%;
-  height: 100%;
+  height: 80%;
   background-color: crimson;
   object-fit: cover;
 }
@@ -298,6 +298,7 @@ header {
     padding: 2rem;
     grid-template-rows: repeat(2, 90vh);
     padding: 1.5rem;
+    gap: 1rem;
   }
 }
 .cont-videos {
@@ -310,16 +311,19 @@ header {
 
 .item-galeria {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   .item-galeria {
     font-size: 1.4rem;
+    text-align: center;
   }
 }
 @media (min-width: 1024px) {
   .item-galeria {
     font-size: 1.6rem;
+    text-align: center;
   }
 }
 .contenedor-contacto {

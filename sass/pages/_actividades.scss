@@ -25,16 +25,19 @@
 
 .item-actividades{
     font-size: 1.2rem;
+    text-align: center;
 }
 
 @media(min-width:768px){
     .item-actividades{
         font-size: 1.4rem;
+        text-align: center;
     }
 }
 
 @media(min-width:1024px){
     .item-actividades{
         font-size: 1.6rem;
+        text-align: center;
     }
 }

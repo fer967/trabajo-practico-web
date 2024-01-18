@@ -1,11 +1,9 @@
 .titulo-galeria{
     @include titulo-pagina;
 }
-.contenedor{
-    width: 100%;
-}
 
 .cont-galeria{
+    width: 100%;
     background-image: $color-fondo;
     padding: 1rem;
     @include flex-col-1rem;
@@ -13,7 +11,7 @@
 
 .cont-galeria img{
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-color: crimson;
     object-fit: cover;
 }
@@ -23,6 +21,7 @@
         @include grid-2col;
         grid-template-rows: repeat(2,90vh);
         padding: 1.5rem;
+        gap: 1rem;
     }
 }
 
@@ -34,16 +33,19 @@
 
 .item-galeria{
     font-size: 1.2rem;
+    text-align: center;
 }
 
 @media(min-width:768px){
     .item-galeria{
         font-size: 1.4rem;
+        text-align: center;
     }
 }
 
 @media(min-width:1024px){
     .item-galeria{
         font-size: 1.6rem;
+        text-align: center;
     }
 }
